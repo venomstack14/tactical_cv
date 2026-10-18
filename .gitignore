@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.mp4
+*.onnx
+report*.json
+clips/
+!assets/

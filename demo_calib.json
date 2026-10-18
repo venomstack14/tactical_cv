@@ -1,0 +1,51 @@
+[
+ {
+  "px": [
+   611.5,
+   266.7
+  ],
+  "name": "center_spot"
+ },
+ {
+  "px": [
+   636.3,
+   293.7
+  ],
+  "name": "circle_near"
+ },
+ {
+  "px": [
+   591.8,
+   245.3
+  ],
+  "name": "circle_far"
+ },
+ {
+  "px": [
+   752.8,
+   420.5
+  ],
+  "name": "halfway_near"
+ },
+ {
+  "px": [
+   554.2,
+   204.4
+  ],
+  "name": "halfway_far"
+ },
+ {
+  "px": [
+   305.8,
+   229.8
+  ],
+  "name": "left_box_far"
+ },
+ {
+  "px": [
+   226.3,
+   351.6
+  ],
+  "name": "left_box_near"
+ }
+]

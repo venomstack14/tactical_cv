@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+opencv-python-headless>=4.8      # cv2.dnn runs ONNX on CPU - no torch at runtime
+# optional: ultralytics (only to export yolov8n.onnx once, or to run the .pt model directly)
+pillow>=10   # reel renderer / report

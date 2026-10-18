@@ -1,0 +1,64 @@
+{
+ "train_game1_test_game2": {
+  "majority": {
+   "acc": 0.608,
+   "macro_f1": 0.151,
+   "acc_when_phase_changes": 0.285
+  },
+  "persistence": {
+   "acc": 0.705,
+   "macro_f1": 0.457,
+   "acc_when_phase_changes": 0.0
+  },
+  "logreg": {
+   "acc": 0.639,
+   "macro_f1": 0.368,
+   "acc_when_phase_changes": 0.185,
+   "top2_when_changes": 0.489
+  },
+  "gbm": {
+   "acc": 0.644,
+   "macro_f1": 0.404,
+   "acc_when_phase_changes": 0.269
+  },
+  "n_test": 6390,
+  "share_phase_changes": 0.295
+ },
+ "train_game2_test_game1": {
+  "majority": {
+   "acc": 0.39,
+   "macro_f1": 0.112,
+   "acc_when_phase_changes": 0.183
+  },
+  "persistence": {
+   "acc": 0.675,
+   "macro_f1": 0.491,
+   "acc_when_phase_changes": 0.0
+  },
+  "logreg": {
+   "acc": 0.575,
+   "macro_f1": 0.326,
+   "acc_when_phase_changes": 0.2,
+   "top2_when_changes": 0.528
+  },
+  "gbm": {
+   "acc": 0.619,
+   "macro_f1": 0.338,
+   "acc_when_phase_changes": 0.198
+  },
+  "n_test": 6536,
+  "share_phase_changes": 0.325
+ },
+ "possession_vs_events": {
+  "game1": {
+   "DEFEND": 0.422,
+   "BUILD_UP": 0.495,
+   "ATTACK": 0.57
+  },
+  "game2": {
+   "DEFEND": 0.519,
+   "BUILD_UP": 0.668,
+   "ATTACK": 0.432
+  }
+ }
+}
